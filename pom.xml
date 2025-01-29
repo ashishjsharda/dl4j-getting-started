@@ -6,4 +6,28 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - dl4j-getting-started</name>
   <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <!-- DeepLearning4j Core Dependency -->
+    <dependency>
+      <groupId>org.deeplearning4j</groupId>
+      <artifactId>deeplearning4j-core</artifactId>
+      <version>1.0.0-M2.1</version>
+    </dependency>
+
+    <!-- ND4J Backend Dependency (CPU) -->
+    <dependency>
+      <groupId>org.nd4j</groupId>
+      <artifactId>nd4j-native-platform</artifactId>
+      <version>1.0.0-M2.1</version>
+    </dependency>
+
+    <!-- Optional: SLF4J for logging -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.36</version>
+    </dependency>
+  </dependencies>
+
 </project>
